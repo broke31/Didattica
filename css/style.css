@@ -818,7 +818,7 @@ height: 80%;
     background-attachment: scroll;
   }
   .img-responsive {
-    padding-top:21px;
+    padding-top:17px;
 }
 .quote{
   font-size: 10px;
@@ -851,7 +851,7 @@ height: 80%;
   }
 }
 }
-
+/*
 .w3-image{max-width:100%;height:auto}img{vertical-align:middle}a{color:inherit}
 .w3-table,.w3-table-all{border-collapse:collapse;border-spacing:0;width:100%;display:table}.w3-table-all{border:1px solid #ccc}
 .w3-bordered tr,.w3-table-all tr{border-bottom:1px solid #ddd}.w3-striped tbody tr:nth-child(even){background-color:#f1f1f1}
@@ -969,3 +969,4 @@ height: 80%;
 .w3-button:hover{color:#000!important;background-color:#ccc!important}
 .w3-transparent,.w3-hover-none:hover{background-color:transparent!important}
 .w3-hover-none:hover{box-shadow:none!important}
+*/
