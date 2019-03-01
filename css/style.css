@@ -737,6 +737,11 @@ height: 80%;
   animation: animate-loading 1s linear infinite;
 }
 
+.belowdiv{
+  margin-top:30%;
+  padding-top: 10%;
+}
+
 @-webkit-keyframes animate-loading {
   0% {
     -webkit-transform: rotate(0deg);
@@ -811,6 +816,12 @@ height: 80%;
   .img-responsive {
     padding-top:21px;
 }
+.quote{
+  font-size: 10px;
+}
+.belowdiv{
+  margin-top: -20px;
+}
 
 /*ipad portrait*/
 
@@ -823,7 +834,6 @@ height: 80%;
 @media screen and (max-width:769px) {
   #headerwrap h1 {
     font-size: 14px;
-    margin-top: 176px;
   }
   #headerwrap p {
     font-size: 25px;

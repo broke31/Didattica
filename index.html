@@ -9,7 +9,7 @@
   <meta content="" name="description">
 
   <!-- Sylesheet for fade animation -->
- <!-- <link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet">-->
+  <!-- <link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet">-->
 
   <!-- Favicons -->
   <link href="img/favicon.png" rel="icon">
@@ -63,27 +63,32 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, quisquam?</p>
       </div>
   -->
-  <div name ="home" id="home">
+  <div name="home" id="home">
     <div id="headerwrap" name="home">
       <img src="img/eniac-girls.jpg" alt="test" class="img-responsive">
       <div class="carousel-caption">
-        <h1>Le donne nell'informatica</h1><br><br><br><br><br><br><br>
-        <div class="w3-large w3-container w3-padding-16 w3-animate-fading mySlides">
-          <q class="quote">Ieri come oggi, avere coraggio significa per una donna pensare e scegliere con la propria testa, anche attraverso un silenzio nutrito di idee. </q>
-          <p class="author">- Dacia Maraini</p>
-        </div>
-        <div class="w3-large w3-container w3-animate-fading mySlides">
-          <q class="quote">Le donne che hanno cambiato il mondo non hanno mai avuto bisogno di mostrare nulla se non la loro intelligenza</q>
-          <p class="author">- Rita Levi Montalcini</p>
-        </div>
-        <div class="w3-large w3-container w3-padding-16 w3-animate-fading mySlides">
-          <q class="quote">La differenza tra uomo e donna è epigenetica, ambientale. Il capitale cerebrale è lo stesso: in un caso è stato storicamente represso, nell'altro incoraggiato.</q>
-          <p class="author">- Rita Levi Montalcini</p>
-        </div>
-        <div class="w3-large w3-container w3-padding-16 w3-animate-fading mySlides">
+        <h1>Le donne nell'informatica</h1>
+        <div class="belowdiv">
+          <div class="w3-large w3-container w3-padding-16 w3-animate-fading mySlides">
+            <q class="quote">Ieri come oggi, avere coraggio significa per una donna pensare e scegliere con la propria
+              testa, anche attraverso un silenzio nutrito di idee. </q>
+            <p class="author">- Dacia Maraini</p>
+          </div>
+          <div class="w3-large w3-container w3-animate-fading mySlides">
+            <q class="quote">Le donne che hanno cambiato il mondo non hanno mai avuto bisogno di mostrare nulla se non
+              la loro intelligenza</q>
+            <p class="author">- Rita Levi Montalcini</p>
+          </div>
+          <div class="w3-large w3-container w3-padding-16 w3-animate-fading mySlides">
+            <q class="quote">La differenza tra uomo e donna è epigenetica, ambientale. Il capitale cerebrale è lo
+              stesso: in un caso è stato storicamente represso, nell'altro incoraggiato.</q>
+            <p class="author">- Rita Levi Montalcini</p>
+          </div>
+          <div class="w3-large w3-container w3-padding-16 w3-animate-fading mySlides">
             <q class="quote">Più studio, più sento che il mio genio è sempre più insaziabile.</q>
             <p class="author">- Ada Lovelace</p>
           </div>
+        </div>
       </div>
     </div>
   </div>
@@ -91,20 +96,20 @@
   <script>
     var myIndex = 0;
     carousel();
-    
+
     function carousel() {
       var i;
       var x = document.getElementsByClassName("mySlides");
       for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";  
+        x[i].style.display = "none";
       }
       myIndex++;
-      if (myIndex > x.length) {myIndex = 1}    
-      x[myIndex-1].style.display = "block";  
-      setTimeout(carousel, 9000);    
+      if (myIndex > x.length) { myIndex = 1 }
+      x[myIndex - 1].style.display = "block";
+      setTimeout(carousel, 9000);
     }
   </script>
-  
+
   <!-- /headerwrap -->
 
   <!-- ==== GREYWRAP ==== -->
@@ -129,9 +134,9 @@
             <figure>
               <img class="img-responsive" src="img/portfolio/hedy-lamarr.jpg" alt="">
               <figcaption id="nome">
-                  <h5>Hedy Lamarr</h5>
-                  <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Altre informazioni</a>
-                </figcaption>
+                <h5>Hedy Lamarr</h5>
+                <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Altre informazioni</a>
+              </figcaption>
               <!-- /figcaption -->
             </figure>
             <!-- /figure -->
@@ -154,7 +159,8 @@
               </div>
               <div class="modal-body">
                 <p><img class="img-responsive" src="img/portfolio/hedy-lamarr.jpg" alt=""></p>
-                <p class="text-justify">A lei si deve l’invenzione, nella prima metà degli anni ‘30, di un sistema di modulazione per
+                <p class="text-justify">A lei si deve l’invenzione, nella prima metà degli anni ‘30, di un sistema di
+                  modulazione per
                   codifica d’informazioni da trasmettere su frequenze radio, che avrebbe consentito di comandare a
                   distanza siluri e mezzi navali. Lamarr ha brevettato il sistema insieme a un amico, il compositore
                   <b>George Antheil</b>, suscitando subito l’interesse di servizi segreti e apparati militari, e
@@ -203,7 +209,8 @@
               </div>
               <div class="modal-body">
                 <p><img class="img-responsive" src="img/portfolio/katherine-johnson.jpg" alt=""></p>
-                <p class="text-justify">Genio della matematica sin da bambina, diplomata alle scuole superiori a soli 14 anni, fu notata
+                <p class="text-justify">Genio della matematica sin da bambina, diplomata alle scuole superiori a soli 14
+                  anni, fu notata
                   da
                   un docente della sua università, la West Virginia State University, che la invitò a seguire corsi
                   avanzati di matematica analitica ideati su misura per lei. Assunta come matematico alla Naca,
@@ -260,7 +267,8 @@
             </div>
             <div class="modal-body">
               <p><img class="img-responsive" src="img/portfolio/ada-lovelace.jpg" alt=""></p>
-              <p class="text-justify">Figlia del poeta Lord Byron, fin da piccola si è rifugiata nei libri di matematica e ha iniziato a
+              <p class="text-justify">Figlia del poeta Lord Byron, fin da piccola si è rifugiata nei libri di matematica
+                e ha iniziato a
                 porsi domande. Ha lavorato col matematico <b>Charles Babbage</b>, inventore della macchina
                 differenziale, considerato il padre dei computer moderni. Appassionata matematica, nei suoi diari si
                 è
@@ -315,7 +323,8 @@
               </div>
               <div class="modal-body">
                 <p><img class="img-responsive" src="img/portfolio/grace-hopper.jpg" alt=""></p>
-                <p class="text-justify">Detta anche <i>“la regina del codice”</i>, la Hopper fu la prima a realizzare un linguaggio di
+                <p class="text-justify">Detta anche <i>“la regina del codice”</i>, la Hopper fu la prima a realizzare un
+                  linguaggio di
                   programmazione indipendente dalla macchina. La sua idea era infatti quella di creare un linguaggio
                   che
                   fosse più vicino a quello naturale piuttosto che al linguaggio macchina. Nacque così il
@@ -365,7 +374,8 @@
               </div>
               <div class="modal-body">
                 <p><img class="img-responsive" src="img/portfolio/margaret-hamilton.jpg" alt=""></p>
-                <p class="text-justify">È stata direttrice del Software Engineering Division del MIT Instrumentation Laboratory, che
+                <p class="text-justify">È stata direttrice del Software Engineering Division del MIT Instrumentation
+                  Laboratory, che
                   sviluppò
                   il software di bordo per il programma spaziale Apollo 11. Il team della Hamilton ha risolto le
                   complicazioni relative allo sbarco dell’<b>Apollo 11</b> sulla Luna, garantendo il successo della
@@ -418,7 +428,8 @@
             </div>
             <div class="modal-body">
               <p><img class="img-responsive" src="img/portfolio/karen-jones.jpg" alt=""></p>
-              <p class="text-justify">È una delle figure principali nella storia dello sviluppo dei search engine come li conosciamo
+              <p class="text-justify">È una delle figure principali nella storia dello sviluppo dei search engine come
+                li conosciamo
                 oggi.
                 Nata nello Yorkshire, in Gran Bretagna da padre inglese docente di chimica e madre norvegese, si è
                 laureata in Filosofia ed è diventata insegnante prima di dedicarsi alla Computer Science. Sposata a
@@ -478,7 +489,8 @@
               </div>
               <div class="modal-body">
                 <p><img class="img-responsive" src="img/portfolio/helen-greiner.jpg" alt=""></p>
-                <p class="text-justify">Co-fondatrice e presidente della <b>iRobot Corporation</b>, ha contribuito a migliorare
+                <p class="text-justify">Co-fondatrice e presidente della <b>iRobot Corporation</b>, ha contribuito a
+                  migliorare
                   l’accessibilità di questi dispositivi meccanici che eseguono funzioni in automatico o guidati da
                   remoto. La maggior parte delle invenzioni di iRobot sono state pensate per uso militare o
                   industriale
@@ -529,7 +541,8 @@
               </div>
               <div class="modal-body">
                 <p><img class="img-responsive" src="img/portfolio/rosza-peter.jpg" alt=""></p>
-                <p class="text-justify"> Studiò alla Università Loránd Eötvös, orientandosi inizialmente verso la chimica. Poi, sotto
+                <p class="text-justify"> Studiò alla Università Loránd Eötvös, orientandosi inizialmente verso la
+                  chimica. Poi, sotto
                   l'influenza delle lezioni tenute da <b>József Kürschák e Leopold Fejér</b>, si indirizzò alla
                   matematica. Dopo la laurea nel 1927 si dedicò a varie occupazioni, tra cui l'insegnamento liceale,
                   proseguendo al contempo gli studi fino a conseguire il titolo di dottorato nel 1935.
@@ -592,7 +605,8 @@
               </div>
               <div class="modal-body">
                 <p><img class="img-responsive" src="img/portfolio/edith-clarke.jpg" alt=""></p>
-                <p class="text-justify">Edith Clarke fu non solo la prima donna ingegnere, ma anche la prima docente a ottenere una
+                <p class="text-justify">Edith Clarke fu non solo la prima donna ingegnere, ma anche la prima docente a
+                  ottenere una
                   cattedra
                   all’Università del Colorado. Dopo aver studiato astronomia e matematica, studiò ingegneria al MIT
                   e
@@ -619,25 +633,45 @@
     <!-- /row -->
   </div>
   <!-- /container -->
-  <div class="row" id="curiosita" name= "curiosita">
+  <div class="row" id="curiosita" name="curiosita">
     <h1 class="centered">Curiosità</h1>
     <hr>
     <br>
     <div class="col-lg-offset-2 col-lg-8">
-      <p class="text-justify">Al giorno d'oggi, l'ambito informatico è quello in cui maggiormente le donne soffrono il gender divide. Le donne non sono che una piccola frazione, piu o meno pari al 15%, del totale dei dipendenti nell'industria tecnologica. Questa percentuale, contro ogni aspettativa, anzichè aumentare non fa altro che <strong>decrescere</strong> di anno in anno.
-        Il picco di donne nel mondo informatico è stato raggiunto nel lontanto 1989 e da allora è in lento ma inarrestabile calo. 
+      <p class="text-justify">Al giorno d'oggi, l'ambito informatico è quello in cui maggiormente le donne soffrono il
+        gender divide. Le donne non sono che una piccola frazione, piu o meno pari al 15%, del totale dei dipendenti
+        nell'industria tecnologica. Questa percentuale, contro ogni aspettativa, anzichè aumentare non fa altro che
+        <strong>decrescere</strong> di anno in anno.
+        Il picco di donne nel mondo informatico è stato raggiunto nel lontanto 1989 e da allora è in lento ma
+        inarrestabile calo.
       </p>
-      <p class="text-justify">Da un sondaggio svolto dal <b>Los Angeles Times</b> su un campione di donne impiegate nell'IT, emerge quanto le ragazze si affaccino al mondo dell'informatica piene di entusiasmo e ambizione, ma si scontrino con l'atteggiamento indisposto e lascivo dei loro pari.
-      La metà delle intervistate hanno risposto al sondaggio affermando di essere state trattate con atteggiameto ostile o umiliante. Un terzo di loro sostiene che i superiori siano molto più amichevoli e di supporto con i colleghi maschi, altre riferiscono di essere state incoraggiate a spostare
-    il loro focus su mansioni di supporto, decisamente meno prestigiose, con meno prospettive di carriera e ovviamente con una retribuzione più bassa. </p>
-      <p class="text-justify">Un'altra analisi condotta dal sito <b>Glassdoor</b> ha concluso che le donne impiegate nell'informatica percepiscono stipendi più bassi rispetto ai colleghi uomini che svolgono le medesime mansioni. Inoltre, si può notare che il numero di donne che lasciano il loro lavoro nel settore informatico cresce di anno in anno; questo non avviene per ragioni familiari, ma perché profondamente insoddisfatte della loro paga e della mancanza di opportunità di crescita. </p>
+      <p class="text-justify">Da un sondaggio svolto dal <b>Los Angeles Times</b> su un campione di donne impiegate
+        nell'IT, emerge quanto le ragazze si affaccino al mondo dell'informatica piene di entusiasmo e ambizione, ma si
+        scontrino con l'atteggiamento indisposto e lascivo dei loro pari.
+        La metà delle intervistate hanno risposto al sondaggio affermando di essere state trattate con atteggiameto
+        ostile o umiliante. Un terzo di loro sostiene che i superiori siano molto più amichevoli e di supporto con i
+        colleghi maschi, altre riferiscono di essere state incoraggiate a spostare
+        il loro focus su mansioni di supporto, decisamente meno prestigiose, con meno prospettive di carriera e
+        ovviamente con una retribuzione più bassa. </p>
+      <p class="text-justify">Un'altra analisi condotta dal sito <b>Glassdoor</b> ha concluso che le donne impiegate
+        nell'informatica percepiscono stipendi più bassi rispetto ai colleghi uomini che svolgono le medesime mansioni.
+        Inoltre, si può notare che il numero di donne che lasciano il loro lavoro nel settore informatico cresce di anno
+        in anno; questo non avviene per ragioni familiari, ma perché profondamente insoddisfatte della loro paga e della
+        mancanza di opportunità di crescita. </p>
       <p class="text-justify">
         <strong>Come ribaltare questa tendenza?</strong> <br>
-        La questione è sempre più sentita soprattutto dalle multinazionali tecnologiche, che periodicamente promuovono borse di studio in favore delle studentesse di informatica e incoraggiano l'assunzione di figure femminili per colmare il divario di genere. <br>
-        Esistono da qualche anno numerose organizzazioni no profit sparse in giro per il mondo il cui scopo è facilitare l'entrata delle donne nel mondo dell'informatica. 
+        La questione è sempre più sentita soprattutto dalle multinazionali tecnologiche, che periodicamente promuovono
+        borse di studio in favore delle studentesse di informatica e incoraggiano l'assunzione di figure femminili per
+        colmare il divario di genere. <br>
+        Esistono da qualche anno numerose organizzazioni no profit sparse in giro per il mondo il cui scopo è facilitare
+        l'entrata delle donne nel mondo dell'informatica.
         Le principali sono <a title="Women who code" target="_blank" href="https://www.womenwhocode.com">
-        <strong>Women who code</strong></a>, <a title="Girl who code" href="https://girlswhocode.com" target="_blank"><strong>Girl who code</strong></a>, <a title="She++" target="_blank" href="http://www.sheplusplus.com"><strong>She++</strong></a>.
-        Hanno network dislocati in varie località del mondo, formati da volontarie che decidono autonomamente di aggregarsi per studiare insieme e supportarsi a vicenda. In Italia sfortunatamente ancora non ne esiste una, ma si sta cercando, a piccoli passi, di formarla.
+          <strong>Women who code</strong></a>, <a title="Girl who code" href="https://girlswhocode.com"
+          target="_blank"><strong>Girl who code</strong></a>, <a title="She++" target="_blank"
+          href="http://www.sheplusplus.com"><strong>She++</strong></a>.
+        Hanno network dislocati in varie località del mondo, formati da volontarie che decidono autonomamente di
+        aggregarsi per studiare insieme e supportarsi a vicenda. In Italia sfortunatamente ancora non ne esiste una, ma
+        si sta cercando, a piccoli passi, di formarla.
       </p>
     </div>
     <!-- col-lg -->
@@ -646,10 +680,11 @@
   <section class="section-divider textdivider divider6">
     <div class="container">
       <div class="opacity-div">
-      <h1>Università degli Studi di Salerno</h1>
-      <hr>
-      <p>fferrucci@unisa.it,</p>
-      <p><a class="icon icon-facebook" href="https://www.facebook.com/dinfunisa/"></a> | <a class="icon icon-instagram" href="https://www.instagram.com/dinfunisa/"></a> </p>
+        <h1>Università degli Studi di Salerno</h1>
+        <hr>
+        <p>fferrucci@unisa.it,</p>
+        <p><a class="icon icon-facebook" href="https://www.facebook.com/dinfunisa/"></a> | <a
+            class="icon icon-instagram" href="https://www.instagram.com/dinfunisa/"></a> </p>
       </div>
     </div>
     <!-- container -->
