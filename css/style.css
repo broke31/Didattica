@@ -220,7 +220,7 @@ a {
 }
 
 a:hover, a:focus {
-  color: #c0392b;
+  color: pink;
   text-decoration: none;
   outline: 0;
 }
@@ -653,7 +653,7 @@ height: 100;
 }
 
 .pricing-option .pricing-signup:hover {
-  background: #c0392b;
+  background: pink;
 }
 
 /* Contact Form */
