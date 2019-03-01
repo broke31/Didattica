@@ -267,7 +267,7 @@ a:before, a:after {
   color: #ffffff;
   padding-bottom: 30px;
   letter-spacing: 8px;
-  font-size: 70px;
+  font-size: 49px;
   text-align: center;
   font-weight: bold;
   text-shadow: 2px 2px 2px #000;
@@ -380,29 +380,10 @@ a:before, a:after {
 
 /* Section Dividers Backgrounds */
 
-.divider1 {
-  background-image: url('../img/bg/divider1.jpg')
-}
-
-.divider2 {
-  background-image: url('../img/bg/divider2.jpg')
-}
-
-.divider3 {
-  background-image: url('../img/bg/divider3.jpg');
-  margin-top: 0px;
-}
-
-.divider4 {
-  background-image: url('../img/bg/divider4.jpg')
-}
-
-.divider5 {
-  background-image: url('../img/bg/divider5.jpg')
-}
 
 .divider6 {
-  background-image: url('../img/bg/unisa.jpg')
+  background-image: url('../img/bg/unisa.jpg');
+  margin-bottom: -2px;
 }
 
 /* ==========================================================================
