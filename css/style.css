@@ -818,7 +818,7 @@ height: 80%;
     background-attachment: scroll;
   }
   .img-responsive {
-    padding-top:17px;
+    padding-top:1px;
 }
 .quote{
   font-size: 10px;
@@ -828,6 +828,9 @@ height: 80%;
 }
 .author{
   font-size: 10px;
+}
+.paddingText{
+  padding: 5%;
 }
 
 /*ipad portrait*/
