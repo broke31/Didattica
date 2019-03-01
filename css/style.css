@@ -849,7 +849,7 @@ a:before, a:after {
       font-size: 10px;
     }
     .quote {
-      font-size: 20px;
+      font-size: 10px;
     }
   }
 }
@@ -865,20 +865,53 @@ a:before, a:after {
   height: auto
 }
 
-img {
-  vertical-align: middle
+
+.w3-animate-fading {
+  animation: fading 10s infinite
 }
 
-a {
-  color: inherit
+@keyframes fading {
+  0% {
+    opacity: 0
+  }
+  50% {
+    opacity: 1
+  }
+  100% {
+    opacity: 0
+  }
 }
 
-.w3-table, .w3-table-all {
-  border-collapse: collapse;
-  border-spacing: 0;
-  width: 100%;
-  display: table
+.w3-animate-opacity {
+  animation: opac 0.8s
 }
+
+@keyframes opac {
+  from {
+    opacity: 0
+  }
+  to {
+    opacity: 1
+  }
+}
+
+.w3-animate-top {
+  position: relative;
+  animation: animatetop 0.4s
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0
+  }
+  to {
+    top: 0;
+    opacity: 1
+  }
+}
+
+/*
 
 .w3-table-all {
   border: 1px solid #ccc
@@ -1614,50 +1647,7 @@ a {
   }
 }
 
-.w3-animate-fading {
-  animation: fading 10s infinite
-}
 
-@keyframes fading {
-  0% {
-    opacity: 0
-  }
-  50% {
-    opacity: 1
-  }
-  100% {
-    opacity: 0
-  }
-}
-
-.w3-animate-opacity {
-  animation: opac 0.8s
-}
-
-@keyframes opac {
-  from {
-    opacity: 0
-  }
-  to {
-    opacity: 1
-  }
-}
-
-.w3-animate-top {
-  position: relative;
-  animation: animatetop 0.4s
-}
-
-@keyframes animatetop {
-  from {
-    top: -300px;
-    opacity: 0
-  }
-  to {
-    top: 0;
-    opacity: 1
-  }
-}
 
 .w3-animate-left {
   position: relative;
@@ -1938,3 +1928,4 @@ a {
 .w3-hover-none:hover {
   box-shadow: none!important
 }
+*/  
