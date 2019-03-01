@@ -695,6 +695,10 @@ height: 80%;
   text-align: center;
 }
 
+.icon-facebook, .icon-instagram{
+  color:#3b5998;
+}
+
 .contact-form .form-send button {
   background: #1abc9c;
   border: 0;
