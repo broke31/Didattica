@@ -8,6 +8,9 @@
   <meta content="" name="keywords">
   <meta content="" name="description">
 
+  <!-- Sylesheet for fade animation -->
+  <link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet">
+
   <!-- Favicons -->
   <link href="img/favicon.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -25,7 +28,6 @@
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
-
 
 </head>
 
@@ -53,23 +55,52 @@
   </div>
 
   <!-- ==== HEADERWRAP ==== -->
-  <!--<div id="home"></div>
-  <div class="headerwrap" name="home">
-    
+  <!--
+    <div id="home"></div>
+    <div class="headerwrap" name="home">
       <img src="img/eniac-girls.jpg" class="img-responsive" alt="Cinque Terre">
       <div class="h1">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, quisquam?</p>
       </div>
-    -->
+  -->
   <div name ="home" id="home">
     <div id="headerwrap" name="home">
       <img src="img/eniac-girls.jpg" alt="test" class="img-responsive">
       <div class="carousel-caption">
         <h1>Le donne nell'informatica</h1>
-      </div>
+        <div class="w3-large w3-container w3-padding-16 w3-animate-fading mySlides">
+          <q>I love you the more in that I believe you had liked me for my own sake and for nothing else</q>
+          <p class="author">- John Keats</p>
+        </div>
+        <div class="w3-large w3-container w3-animate-fading mySlides">
+          <q>But man is not made for defeat. A man can be destroyed but not defeated.</q>
+          <p class="author">- Ernest Hemingway</p>
+        </div>
+        <div class="w3-large w3-container w3-padding-16 w3-animate-fading mySlides">
+          <q>I have not failed. I've just found 10,000 ways that won't work.</q>
+          <p class="author">- Thomas A. Edison</p>
+        </div>
       </div>
     </div>
   </div>
+
+  <script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 9000);    
+    }
+  </script>
+  
   <!-- /headerwrap -->
 
   <!-- ==== GREYWRAP ==== -->
@@ -585,7 +616,7 @@
   </div>
   <!-- /container -->
   <div class="row" id="curiosita" name= "curiosita">
-    <h2 class="centered">Curiosità</h2>
+    <h1 class="centered">Curiosità</h1>
     <hr>
     <br>
     <div class="col-lg-offset-2 col-lg-8">
