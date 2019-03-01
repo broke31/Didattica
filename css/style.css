@@ -9,7 +9,7 @@ body {
 }
 
 ::-moz-selection {
-  background: #f2c2c9;
+  background: pink;
   color: #a4003a;
   text-shadow: none;
 }
@@ -119,9 +119,6 @@ hr:before {
   background: #ccc;
 }
 
-a img {
-  background: white;
-}
 
 .odd a img {
   background: #f5f5f5;
