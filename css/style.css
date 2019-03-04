@@ -795,9 +795,7 @@ a:before, a:after {
   body .header {
     background-attachment: scroll;
   }
-  .img-responsive {
-    padding-top: 15px;
-  }
+  
   .quote {
     font-size: 10px;
   }
