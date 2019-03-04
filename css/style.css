@@ -68,7 +68,7 @@ body {
 
 .row {
   margin-right: 0px;
-
+  margin-left: -15px;
 }
 
 .modal-header {
@@ -824,6 +824,9 @@ a:before, a:after {
     .belowdiv {
       font-size: 10px;
     }
+    .row{
+      margin-right: 0%;
+    }
   }
   @media screen and (max-width:769px) {
     #headerwrap h1 {
@@ -833,6 +836,9 @@ a:before, a:after {
       font-size: 14px;
       line-height: 30px;
     }
+  }
+  .row{
+    margin-right: 0%;
   }
   @media screen and (max-width:1366px) {
     #headerwrap h1 {
@@ -850,6 +856,10 @@ a:before, a:after {
     }
     .quote {
       font-size: 10px;
+    }
+    .row{
+      margin-left: 0px;
+      margin-right: 0px;
     }
   }
 }
