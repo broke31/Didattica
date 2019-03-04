@@ -796,7 +796,7 @@ a:before, a:after {
     background-attachment: scroll;
   }
   .img-responsive {
-    padding-top: 1px;
+    padding-top: 15px;
   }
   .quote {
     font-size: 10px;
@@ -813,7 +813,11 @@ a:before, a:after {
   .belowdiv {
     font-size: 10px;
   }
-  /*ipad portrait*/
+.navbar-header{
+  margin-top: -15px;
+}
+
+    /*ipad portrait*/
   @media only screen and (min-device-width:768px) and (max-device-width: 1024px) and (orientation: portrait) {
     .header {
       background-attachment: scroll;
@@ -825,7 +829,8 @@ a:before, a:after {
       font-size: 10px;
     }
     .row{
-      margin-right: 0%;
+      margin-right: 0px;
+      margin-left: 0px;
     }
   }
   @media screen and (max-width:769px) {
@@ -838,7 +843,8 @@ a:before, a:after {
     }
   }
   .row{
-    margin-right: 0%;
+    margin-right: 0px;
+    margin-left: 0px;
   }
   @media screen and (max-width:1366px) {
     #headerwrap h1 {
