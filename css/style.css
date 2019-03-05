@@ -811,7 +811,7 @@ a:before, a:after {
     background-attachment: scroll;
   }
   .img-responsive {
-    padding-top: 1px;
+    padding-top: 17px;
   }
   .quote {
     font-size: 10px;
