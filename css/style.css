@@ -419,7 +419,15 @@ a:before, a:after {
   position: absolute;
   left: 0;
 }
-
+.btn-primary{
+  border-color: #2f2f2f;
+}
+.grid figcaption a:hover {
+  background: #3bc492;
+}
+.btn-primary:hover{
+  border-color: #3bc492;
+}
 .service-active .service-trigger {
   background: #222;
 }
