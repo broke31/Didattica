@@ -5,5 +5,4 @@ contributo che è stato dato dalle donne in passato.
 
 
 Sviluppata da:
-Antonio Pizza, Giammaria Giordano, Giuseppe Abagnale, Roberto Gagliardi, Valeria Pontillo.
-in occasione delle festa dell'8 Marzo
+Antonio Pizza, Giammaria Giordano, Giuseppe Abagnale, Roberto Gagliardi, Valeria Pontillo, Francesco Vicidomini
