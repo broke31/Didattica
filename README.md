@@ -4,5 +4,8 @@ Molte volte infatti l'informatica viene considerata una materia prettamente masc
 contributo che è stato dato dalle donne in passato.
 
 
+Link al sito: https://broke31.github.io/didattica/
+
 Sviluppata da:
 Antonio Pizza, Giammaria Giordano, Giuseppe Abagnale, Roberto Gagliardi, Valeria Pontillo, Francesco Vicidomini
+
